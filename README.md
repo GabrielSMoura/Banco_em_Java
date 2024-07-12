@@ -22,9 +22,3 @@ O **Banco Midas** é um sistema bancário simples que permite aos usuários cria
 7. **Excluir**: Exclui uma conta específica do sistema.
 8. **Buscar Conta**: Pesquisa e exibe detalhes de uma conta específica.
 9. **Sair**: Encerra o sistema.
-
-## 📝 Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
