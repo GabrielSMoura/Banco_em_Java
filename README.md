@@ -1,24 +1,131 @@
-# Banco Midas
+# 🏦 Banco Midas
 
-<img src="https://img.freepik.com/vetores-premium/icone-do-predio-do-banco-no-escuro_116137-4384.jpg" alt="Banco Midas Logo" width="200" height="200"> <!-- Substitua pelo link do seu logo e ajuste o tamanho -->
+<p align="center">
+  <img src="https://img.freepik.com/vetores-premium/icone-do-predio-do-banco-no-escuro_116137-4384.jpg" alt="Banco Midas Logo" width="180">
+</p>
 
-## 🏦 Descrição do Projeto
+## 📖 Sobre o Projeto
 
-O **Banco Midas** é um sistema bancário simples que permite aos usuários criar e gerenciar contas poupança e corrente. O sistema oferece funcionalidades básicas como criação de contas, visualização de detalhes das contas, depósitos, saques, transferências, listagem de contas e exclusão de contas. Este projeto foi desenvolvido com o objetivo de proporcionar uma compreensão prática dos conceitos básicos de um sistema bancário.
+O **Banco Midas** é uma aplicação desenvolvida em **Java** que simula operações básicas de um sistema bancário. O projeto permite o gerenciamento de contas correntes e poupança por meio de um menu interativo no terminal, proporcionando uma experiência prática com conceitos de programação orientada a objetos (POO).
 
-## 🛠️ Ferramenta Utilizada
+Este projeto foi desenvolvido com fins educacionais, aplicando conceitos como encapsulamento, herança, polimorfismo, coleções, abstração e manipulação de dados.
 
-- **Java**: A linguagem de programação utilizada para desenvolver o sistema bancário.
-- **NetBeans**: A IDE utilizada para o desenvolvimento do projeto.
+---
 
 ## 🚀 Funcionalidades
 
-1. **Criar Conta**: Permite criar uma nova conta poupança ou corrente.
-2. **Visualizar Conta**: Exibe detalhes de uma conta específica.
-3. **Depositar**: Adiciona fundos a uma conta existente.
-4. **Sacar**: Retira fundos de uma conta existente.
-5. **Transferir**: Transfere fundos de uma conta para outra.
-6. **Listar**: Lista todas as contas existentes no sistema.
-7. **Excluir**: Exclui uma conta específica do sistema.
-8. **Buscar Conta**: Pesquisa e exibe detalhes de uma conta específica.
-9. **Sair**: Encerra o sistema.
+O sistema oferece as seguintes operações:
+
+- 🆕 Criar contas (Corrente ou Poupança)
+- 🔍 Buscar conta pelo número
+- 📄 Visualizar informações da conta
+- 💰 Realizar depósitos
+- 💸 Efetuar saques
+- 🔄 Transferir valores entre contas
+- 📋 Listar todas as contas cadastradas
+- 🗑️ Excluir contas
+- 🚪 Encerrar o sistema
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Java
+- Programação Orientada a Objetos (POO)
+- Collections Framework
+- NetBeans IDE
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+BancoMidas/
+├── src/
+│   ├── model/
+│   ├── controller/
+│   ├── repository/
+│   ├── util/
+│   └── Menu.java
+├── README.md
+```
+
+> A estrutura acima pode variar conforme a organização do projeto.
+
+---
+
+## ▶️ Como Executar
+
+### Clone o repositório
+
+```bash
+git clone https://github.com/SEU-USUARIO/Banco-Midas.git
+```
+
+### Entre na pasta
+
+```bash
+cd Banco-Midas
+```
+
+### Compile o projeto
+
+```bash
+javac *.java
+```
+
+### Execute a aplicação
+
+```bash
+java Menu
+```
+
+> Caso utilize o **NetBeans**, basta abrir o projeto e executar normalmente pela IDE.
+
+---
+
+## 💡 Conceitos Aplicados
+
+Durante o desenvolvimento deste projeto foram utilizados diversos conceitos fundamentais da linguagem Java, incluindo:
+
+- Programação Orientada a Objetos
+- Classes e Objetos
+- Herança
+- Polimorfismo
+- Encapsulamento
+- Abstração
+- Interfaces
+- Collections (`ArrayList`)
+- Tratamento de exceções
+- Organização em pacotes
+
+---
+
+## 🎯 Objetivo
+
+O Banco Midas foi desenvolvido para consolidar conhecimentos em Java por meio da implementação de um sistema bancário simples, simulando operações comuns do dia a dia e reforçando boas práticas de desenvolvimento.
+
+---
+
+## 📷 Demonstração
+
+Adicione aqui capturas de tela ou um GIF mostrando a aplicação em funcionamento.
+
+```text
+Menu Principal
+
+1 - Criar Conta
+2 - Listar Contas
+3 - Buscar Conta
+4 - Depositar
+5 - Sacar
+6 - Transferir
+7 - Excluir Conta
+8 - Sair
+```
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins acadêmicos e de aprendizado. Sinta-se à vontade para utilizá-lo como referência em seus estudos.
